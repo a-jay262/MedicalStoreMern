@@ -1,7 +1,7 @@
 [build]
-  base = "frontend"           # Set the base directory to frontend
-  command = "npm run build"   # Command to build the frontend
-  publish = "frontend/build"  # Directory to publish
+  base = "frontend"             # Base directory where your frontend code is located
+  command = "npm run build"     # Command to build your project
+  publish = "build"             # Directory to publish the build output
 
 [build.environment]
-  CI = "false"  # Optional: Disable treating warnings as errors (you can remove this if not needed)
+  CI = "false"  # Optional: Set to false to avoid treating warnings as errors
